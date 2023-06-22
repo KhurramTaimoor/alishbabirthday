@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="includes/css/main2.css" />
+  <style>
+    /* Animation Styles */
+    h1, p {
+      color: #000000; /* Set the desired font color */
+    }
+
+    .fade-in {
+      animation: fade-in 1s ease-in-out;
+    }
+
+    @keyframes fade-in {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+
+    .slide-up {
+      transition: transform 1.5s ease-in-out;
+    }
+
+    .slide-up:hover {
+      transform: translateY(-10px);
+    }
+
+    /* Image Styles */
+    img {
+      width: 100px; /* Adjust the width as needed */
+      height: auto;
+    }
+
+    /* Highlight Styles */
+    h2 {
+      background-color: #e9e9e9; /* Set the desired background color */
+      padding: 5px 10px; /* Adjust the padding as needed */
+      display: inline-block;
+    }
+  </style>
+</head>
+<body>
+  
+  <div>
+    <h2 class="slide-up">Meet on Instagram (14/12/2020)</h2>
+    <p class="fade-in">
+      We first connected on Instagram on December 14, 2020. It all started with a simple message, and little did we know that it would be the beginning of a beautiful journey.
+    </p>
+    <img src="alexander-shatov-71Qk8ODIBko-unsplash.jpg" alt="Meet on Instagram">
+  </div>
+  
+  <div>
+    <h2 class="slide-up">Proposal (19/12/2020)</h2>
+    <p class="fade-in">
+      Just five days after our first interaction, I couldn't wait any longer and decided to propose to her on December 19, 2020. It was a nerve-wracking moment, but I gathered all my courage and expressed my feelings for her.
+    </p>
+    <img src="istockphoto-1349234348-170667a.jpg" alt="Proposal">
+  </div>
+  
+  <div>
+    <h2 class="slide-up">She said yes! (24/12/2020)</h2>
+    <p class="fade-in">
+      On December 24, 2020, she gave me the best gift I could ever ask for — her acceptance. She agreed to be my wife, and my heart was filled with joy and gratitude. It marked the beginning of a new chapter in our lives together.
+    </p>
+    <img src="il_fullxfull.2553153478_709z.jpg" alt="She said yes!">
+  </div>
+  
+  <footer class="fade-in">
+    <<a href="webpage.html" class="start-journey-button">Click For Proposal </a>
+  </footer>
+</body>
+</html>
